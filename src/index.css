@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+/* ==================== Home CSS Start======================== */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animation-fadeIn {
+  animation: fadeIn 3s;
+}
+::-webkit-scrollbar {
+  display: none; 
+}
+/* ==================== Home CSS End======================== */
