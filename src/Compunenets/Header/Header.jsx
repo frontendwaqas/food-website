@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
     <>
-      <div className="h-[34vw] my-[30px] mx-auto bg-[url('assets\header_img.png')] relative bg-no-repeat bg-contain ">
+      <div className="h-[34vw] my-[30px] mx-auto bg-[url('assets/header_img.png')] relative bg-no-repeat bg-contain ">
         <div className="absolute flex flex-col gap-[1.5vw] items-start max-w-[50%] left-[6vw] bottom-[10%] animation-fadeIn text-white">
           <h2 className="font-[500] text-[max(4.0vw,22px)] leading-[90px]">
             Order your favourite food Here!
